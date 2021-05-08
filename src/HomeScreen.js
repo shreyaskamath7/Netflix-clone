@@ -7,7 +7,7 @@ import requests from './Requests'
 const Homescreen = () => {
     return (
         <div classname="homescreen">
-            <Nav/>
+           
             <Banner/>
             <Row title="NETFLIX ORIGINALS"
             fetchUrl={requests.fetchNetflixOriginals} isLargeRow={true}/>
